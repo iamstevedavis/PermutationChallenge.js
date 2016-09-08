@@ -1,0 +1,42 @@
+/* set the font on the page */
+* {
+ font-size: 100%;
+ font-family: Arial;
+}
+
+/* general html and body styles */
+html, body{
+  height: 100%;
+}
+
+/* this is the div that wraps my body content */
+#divBody{
+  width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* this is the div that wraps the top area where the user selects marbles */
+#selectorArea{
+  text-align:center;
+}
+
+/* this is the div that wraps the 5 marbles that can be selected */
+#marbleSelectorGroup{
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* this div wraps the generated marbles */
+#marbleDisplayArea{
+  width: 50%;
+  margin: 3% auto;
+}
+
+/* change cursor on mouseover of the selectable marbles */
+.marble-selector{
+  cursor: pointer;
+}

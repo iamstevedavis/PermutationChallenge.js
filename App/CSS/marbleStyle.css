@@ -1,0 +1,24 @@
+/* base class for the marbles */
+.marble-base{
+	height: 35px;
+	width: 35px;
+	margin: 10px 0px 0px 10px;
+	display: inline-block;
+	border-radius: 50%;
+}
+/* give marbles colour */
+.marble-blue{
+	background-color: blue;
+}
+.marble-green{
+	background-color: green;
+}
+.marble-red{
+	background-color: red;
+}
+.marble-yellow{
+	background-color: yellow;
+}
+.marble-orange{
+	background-color: orange;
+}
